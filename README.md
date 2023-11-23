@@ -94,7 +94,7 @@ def change_mac(interface, mac_address):
     subprocess.call(["ifconfig", interface, "hw", "ether", mac_address])
     subprocess.call(["ifconfig", interface, "up"])
 
-options = user_arguments()
-change_mac(options.interface, options.mac_address)
+values = user_arguments()
+change_mac(values.interface, values.mac_address)
 ```
 </body>
