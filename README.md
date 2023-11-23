@@ -12,8 +12,8 @@ Using Python and Kali Linux to build a simple MAC address changer
   <p>Open the Linux terminal. Find the names of your devices's interfaces by using <code>ifconfig</code>.
     <img src="https://github.com/amaraphi/mac_address_changer/assets/144752187/f2e3d0a9-92f8-4868-a1e2-e86b573b173c"/>
   <p>Open Pycharm (or any IDE of your choice) and create a new project. Create a new Python file.</p>
-  <p>Import the <code>subprocess</code> module</p>
-  <p>Create a new function, <code>change_mac</code>, that accepts two parameters: the name of the interface to the changed and its new MAC address:</p>
+  <p>Import the <code>subprocess</code> module.</p>
+  <p>Create a new function, <code>change_mac</code>, that accepts two parameters: the name of the interface and its new MAC address:</p>
   <p><code>def change_mac(interface, mac_address):</code></p>
   <p>Use the <code>subprocess.call()</code> method to execute system commands using a list with the following syntax:</p>
   
