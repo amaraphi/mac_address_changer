@@ -28,7 +28,7 @@ subprocess.call(["iconfig", interface, "up"])
   <p>Create an <code>OptionParser()</code> object.</p>
 
   ```
-parser = OptionParser()
+parser = argparse.OptionParser()
 ```
 
   <p>Use the <code>add_argument()</code> method to create custom user arguments for the interface name and the new MAC address using the following syntax:</p>
