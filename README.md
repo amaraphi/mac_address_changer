@@ -25,10 +25,10 @@ subprocess.call(["iconfig", interface, "up"])
   <h1>Step 2: Creating a function that accepts user arguments in the Linux command line</h1>
   <p>Import the <code>argparse</code> module. This allows users to use custom Linux commands to change the MAC address directly in the terminal.</p>
   <p>Define a new function named <code>user_arguments()</code>.</p>
-  <p>Create an <code>OptionParser()</code> object.</p>
+  <p>Create an <code>ArgumentParser()</code> object.</p>
 
   ```
-parser = argparse.OptionParser()
+parser = argparse.ArgumentParser()
 ```
 
   <p>Use the <code>add_argument()</code> method to create custom user arguments for the interface name and the new MAC address using the following syntax:</p>
